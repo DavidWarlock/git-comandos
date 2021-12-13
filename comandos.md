@@ -1,4 +1,4 @@
-# Curso Git
+# Comandos Git
 
 (Mostrar version de git, el — se refiere a que viene una palabra completa)
 
