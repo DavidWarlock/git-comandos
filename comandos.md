@@ -110,6 +110,24 @@ Ver log de todos los cambios realizados
 git reflog
 ```
 
+Crear tag sobre el último commit
+
+```bash
+git tag [nombre-del-tag]
+
+// Eliminar tag
+git tag -d [nombre-del-tag]
+```
+
+Crear tag con versión
+
+```bash
+git tag -a [v1.0.0] -m "Descripcion de versión 1.0.0"
+
+//Crear tag sobre un commit especifico
+git tag -a [v1.0.0] [7ab4912c/Hash] -m "Descripcion de versión 1.0.0"
+```
+
 Agregar cambios al stash
 
 ```bash
