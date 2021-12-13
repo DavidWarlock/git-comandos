@@ -40,9 +40,7 @@ git log
 
 Los cambios en el stage prevalecen si se le hace otro cambio y se hace un reset al archivo.
 
-Por defecto Git no da seguimiento a directorios vacíos, debe añadirse dentro un archivo con el nombre .gitkeep:
-
-![Untitled](Curso%20Git%2070587cf96a304a82bd3eda0bf08e55ec/Untitled.png)
+Por defecto Git no da seguimiento a directorios vacíos, debe añadirse dentro un archivo con el nombre .gitkeep
 
 ```bash
 git status --short
